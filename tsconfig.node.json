@@ -12,9 +12,12 @@
     "noEmit": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
 
+<<<<<<< HEAD
     "target": "es2020", // Adjust based on your project's requirements
      "lib": ["dom", "dom.iterable"], // Include 'node'
 
+=======
+>>>>>>> 40febaa488bc06af23898befa6e37997d951c57b
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "types": ["node"]

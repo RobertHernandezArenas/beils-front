@@ -1,6 +1,10 @@
 {
   "recommendations": [
     "Vue.volar",
+<<<<<<< HEAD
+=======
+    "Vue.vscode-typescript-vue-plugin",
+>>>>>>> 40febaa488bc06af23898befa6e37997d951c57b
     "ms-playwright.playwright",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode"
