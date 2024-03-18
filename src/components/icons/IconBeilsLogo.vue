@@ -1,0 +1,37 @@
+<script setup lang="ts">
+import { toRefs } from 'vue';
+
+const props = defineProps({
+	size: {
+		type: Number,
+		default: 25,
+	},
+	color: {
+		type: String,
+		default: 'red',
+	},
+});
+
+const { size, color } = toRefs(props);
+</script>
+
+<template>
+	<svg
+		:width="size"
+		:height="size + 10"
+		viewBox="0 0 12 22"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<path
+			d="M7.19695 17.1436H4.80304V11.0165C4.80304 10.3554 5.33894 9.81952 6 9.81952C6.66107 9.81952 7.19697 10.3554 7.19697 11.0165V17.1436H7.19695Z"
+			:fill="color"
+		/>
+		<path
+			d="M6 6.75004C5.33894 6.75004 4.80304 6.21414 4.80304 5.55307V4.82971H7.19695V5.55307C7.19695 6.21414 6.66104 6.75004 6 6.75004Z"
+			:fill="color"
+		/>
+	</svg>
+</template>
+
+<style scoped></style>
