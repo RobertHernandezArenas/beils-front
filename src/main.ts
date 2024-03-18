@@ -3,6 +3,11 @@ import './assets/main.css';
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 
+import 'aos/dist/aos.css'; // Import AOS styles
+import AOS from 'aos'; // Import AOS JavaScript
+
+AOS.init();
+
 import App from './App.vue';
 import router from './router';
 
